@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ergonomia no Setor Administrativo e Home Office"
+    />
+    <meta name="author" content="SESI" />
+    <title>SESI vida | Ergonomia no Setor Administrativo e Home Office</title>
+    <link rel="icon" type="image/png" href="src/img/core/Favicon.webp" />
+
+    <!-- Fonts GIBSON -->
+    <link rel="stylesheet" href="https://use.typekit.net/xqh7gyj.css" />
+
+    <!--Import Google Icon Font-->
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
+    />
+
+    <!-- CSS -->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="src/css/main.css"
+      media="screen"
+    />
+
+    <!-- Vue DEV MODE -->
+    <!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
+
+    <!-- Vue PROD MODE -->
+    <script
+      rel="preconnect"
+      src="https://unpkg.com/vue@3/dist/vue.global.prod.js"
+    ></script>
+
+    <!-- Scorm JS -->
+    <script src="src/js/scorm/APIWrapper.js" ></script>
+    <script src="src/js/scorm/SCOFunctions.js" ></script>
+    <script src="src/js/scorm/scorm-app.js" ></script>
+
+    <link rel="preload" href="src/img/aula/Hero-s.webp" as="image" />
+    <link rel="preload" href="src/img/aula/Hero.webp" as="image" />
+
+    <!-- Materialize JS -->
+    <script
+      type="text/javascript"
+      src="src/js/bin/materialize.js"
+      defer
+    ></script>
+
+    <!-- AOS JS -->
+    <script
+      type="text/javascript"
+      src="src/js/aos-master/aos.js"
+      defer
+    ></script>
+
+    <!-- App.js JS customizado aqui -->
+    <script type="module" src="src/js/app.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="src/css/aos.css" />
+
+    <!-- hystmodal -->
+    <link rel="stylesheet" href="src/css/hystmodal.min.css" />
+    <script src="src/js/hystmodal/hystmodal.min.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <!-- loading ---------------------------------- -->
+      <div id="loading">
+        <div class="spinner"></div>
+      </div>
+      <div id="content">
+        <!-- Sidebar ---------------------------------- -->
+        <sidebar></sidebar>
+
+        <!-- Navbar ---------------------------------- -->
+        <navbar></navbar>
+
+        <!-- Hero Banner ---------------------------------- -->
+        <hero></hero>
+
+        <!-- introduçao ------------------------------------>
+        <div id="introducao" class="py-80 py-60-tablet bg-purple">
+          <div class="container--780 pb-80">
+            <h1 data-aos="fade-up" class="blue-green-text">Introdução</h1>
+            <p class="white-t">
+              Olá! Seja bem-vindo(a) ao nosso Treinamento em Ergonomia no Setor
+              Administrativo e <i>Home Office</i>! Nosso objetivo é simples: ajudar
+              você a criar um ambiente de trabalho mais saudável e confortável,
+              seja no escritório ou em casa!
+            </p>
+            <p class="white-t">
+              Neste curso, vamos aprender a escolher o mobiliário ideal, a conhecer os acessórios que fazem a diferença e entender as práticas que podem melhorar sua produtividade e prevenir problemas de saúde.
+            </p>
+          </div>
+
+          <div class="sobre bg-blue-green py-40 pb-32">
+            <div class="container--780">
+              <div class="row">
+                <div class="col m8 s12">
+                  <p class="purple-text">
+                    <b><i>Neste treinamento, vamos explorar os seguintes temas:</i></b>
+                  </p>
+                  <ul>
+                    <li class="flex--align-center">
+                      <img
+                        src="src/img/check-purple.webp"
+                        alt="Check"
+                        class="w100 m-w16 mr-16"
+                        loading="lazy"
+                      />
+                      <p class="white-t">a importância de manter uma boa postura;</p>
+                    </li>
+                    <li class="flex--align-center">
+                      <img
+                        src="src/img/check-purple.webp"
+                        alt="Check"
+                        class="w100 m-w16 mr-16"
+                        loading="lazy"
+                      />
+                      <p class="white-t">
+                        como lidar com longos períodos trabalhando sentado;
+                      </p>
+                    </li>
+                    <li class="flex--align-center">
+                      <img
+                        src="src/img/check-purple.webp"
+                        alt="Check"
+                        class="w100 m-w16 mr-16"
+                        loading="lazy"
+                      />
+                      <p class="white-t">escolha de cadeiras adequadas;</p>
+                    </li>
+                    <li class="flex--align-center">
+                      <img
+                        src="src/img/check-purple.webp"
+                        alt="Check"
+                        class="w100 m-w16 mr-16"
+                        loading="lazy"
+                      />
+                      <p class="white-t">
+                        uso correto do computador, telefone e celular;
+                      </p>
+                    </li>
+                    <li class="flex--align-center">
+                      <img
+                        src="src/img/check-purple.webp"
+                        alt="Check"
+                        class="w100 m-w16 mr-16"
+                        loading="lazy"
+                      />
+                      <p class="white-t">organização dos itens na sua mesa;</p>
+                    </li>
+                    <li class="flex--align-center">
+                      <img
+                        src="src/img/check-purple.webp"
+                        alt="Check"
+                        class="w100 m-w16 mr-16"
+                        loading="lazy"
+                      />
+                      <p class="white-t">apoio adequado para os pés;</p>
+                    </li>
+                    <li class="flex--align-center">
+                      <img
+                        src="src/img/check-purple.webp"
+                        alt="Check"
+                        class="w100 m-w16 mr-16"
+                        loading="lazy"
+                      />
+                      <p class="white-t">
+                        pausas ativas e como elas podem melhorar sua qualidade de vida no trabalho.
+                      </p>
+                    </li>
+                  </ul>
+                  <div class="pr-80 pr-0-tablet">
+                    <p class="white-text">
+                      Está preparado(a) para melhorar seu ambiente de trabalho e cuidar da sua saúde? <br><br>   Então, vamos começar. <br> Bons estudos!
+                    </p>
+                  </div>
+                    
+                  
+                </div>
+                <div class="col m4 s12 flex--align-center flex--justify-center-mobile">
+                  <img
+                    src="src/img/sobre.webp"
+                    alt="Sobre"
+                    class="w100 m-w250"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container--780 pt-60">
+            
+            <div
+              class="box-attention box-attention--white py-24 px-24 flex--align-center mt-40"
+            >
+              <img
+                src="src/img/Icone1.webp"
+                loading="lazy"
+                alt="ícone de cuidado"
+                style="width: 100%; max-width: 55px"
+                class="mr-16"
+              />
+              <div>
+                <p class="purple-text">
+                  <b>Vamos começar pelo nome deste treinamento?</b>
+                </p>
+                <p>
+                  Aposto que você já ouviu falar em <b>ergonomia</b>, certo? Você tem alternado sua postura durante o trabalho? Confira a definição
+                  da NR17 abaixo.
+                </p>
+                <a
+                  href="http://#"
+                  class="btn"
+                  data-hystmodal="#modal-1"
+                  style="font-size: 14px; background-color: #818abc"
+                  ><b>Clique aqui</b></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Postura -->
+        <div id="postura" class="bg-purple pb-80">
+          <div class="container--780">
+            <div>
+              <h1 data-aos="fade-up" class="white-t">Postura</h1>
+              <p class="white-t">
+                <b>
+                  <i
+                    >Você já parou para pensar qual seria a postura ideal para
+                    realizar o seu trabalho?</i
+                  >
+                </b>
+              </p>
+              <p class="white-t">
+                A postura mais adequada é aquela escolhida livremente e que
+                permite variações ao longo do tempo. Manter uma mesma postura
+                por muito tempo pode gerar efeitos negativos, então, o ideal é
+                alterná-las com a maior frequência possível.
+              </p>
+
+              <img
+                src="src/img/postura.webp"
+                alt="Posturas"
+                class="w100"
+                style="margin-bottom: -10px"
+                loading="lazy"
+              />
+            </div>
+
+            <div style="background-color: #4f3b7a" class="center-align py-60">
+              <p class="blue-green-text">
+                <b
+                  ><i>
+                    Agora que você já conhece o conceito de postura, pare um
+                    pouco e reflita:
+                  </i></b
+                >
+              </p>
+              <p class="white-t">
+                <b
+                  ><i>
+                    Você tem alternado a postura durante o desenvolvimento do
+                    seu trabalho?
+                  </i></b
+                >
+              </p>
+              <div>
+                <img
+                  src="src/img/beleza.webp"
+                  alt="Like"
+                  style="width: 100%; max-width: 50px"
+                  class="pointer mr-16 tooltipped"
+                  data-position="top"
+                  data-tooltip="Sim, com certeza!"
+                />
+                <img
+                  src="src/img/nao-beleza.webp"
+                  alt="Like"
+                  style="width: 100%; max-width: 50px"
+                  class="pointer ml-16 tooltipped"
+                  data-position="bottom"
+                  data-tooltip="Vixe! Acho que não!"
+                />
+              </div>
+            </div>
+
+            <div>
+              <p class="white-t mt-40">
+                Se você já está cuidando da sua postura, parabéns! Se ainda não, vamos juntos entender por que isso é tão importante.
+               
+              </p>
+              <p class="white-t">
+                No trabalho administrativo, é comum passarmos longos períodos
+                sentados. Mas você sabia que manter essa posição por muito tempo
+                pode comprimir os discos entre as vértebras e causar dores
+                crônicas na coluna?
+              </p>
+              <p class="white-t">
+                Esses problemas não surgem apenas pelo peso sobre a coluna, mas,
+                principalmente, pela falta de movimento. Permanecer na mesma
+                posição prejudica a nutrição dos discos intervertebrais, que
+                dependem do movimento e da variação de posturas para se manterem
+                saudáveis.
+              </p>
+              <p class="white-t">
+                Os efeitos fisiológicos dos esforços estáticos podem comprimir
+                os vasos sanguíneos, impedindo o fluxo adequado do sangue. Com
+                isso, os músculos deixam de receber oxigênio e nutrientes, e os
+                resíduos metabólicos se acumulam, causando dor e fadiga muscular
+                (segundo a Nota Técnica nº 060/2001). Mas trabalhar sentado
+                também tem suas vantagens, não é verdade?
+              </p>
+            </div>
+          </div>
+
+          <!-- vantagens e desvantagens -->
+          <div id="vantagens" class="pb-40 pt-144">
+            <div class="container">
+              <div class="row">
+                <div class="col l7 m10 s12">
+                  <h4 class="white-t"><i>Vantagens e desvantagens</i></h4>
+                  <p class="white-t">
+                    Passe o mouse sobre os tópicos a seguir para conhecer as
+                    vantagens e desvantagens de se trabalhar sentado por um
+                    longo período.
+                  </p>
+
+                  <content-menu-02 class="my-40"></content-menu-02>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cadeira -->
+        <div id="cadeira" class="bg-purple">
+          <div class="container--780">
+            <h1 data-aos="fade-up" class="white-t">A cadeira</h1>
+            <p class="white-t">
+              Agora, vamos falar de um item essencial: a sua cadeira! Sim, ela é
+              fundamental para o seu conforto e saúde no trabalho. Para se
+              ajustar ao seu corpo – altura, peso, comprimento das pernas etc. –
+              é importante que a cadeira tenha regulagens.
+            </p>
+            <p class="white-t">
+              Esses ajustes não servem apenas para proporcionar conforto
+              imediato, mas também para permitir que você alterne posturas ao
+              longo do dia.
+            </p>
+            <p class="white-t">
+              A cadeira deve acompanhar os movimentos do seu corpo, promovendo
+              contrações e relaxamentos nos músculos, o que melhora a circulação
+              e previne aquelas dores incômodas.
+            </p>
+            <p class="flex--align-center white-t">
+              <img
+                src="src/img/check-green.webp"
+                alt="Check"
+                loading="lazy"
+                class="mr-16 m-w16"
+              />
+              <b>Então, o que sua cadeira precisa ter?</b>
+            </p>
+          </div>
+
+          <div class="container--980 mt-60">
+            
+            <div class="click-reveal flex--justify-center">
+              <!-- Bullet -->
+              <a
+                class="bullet btn-floating pulse waves-effect waves-light tooltipped"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="bullet-01"
+                style="left: 62%; top: 30%"
+              >
+                <div id="bullet-01" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Altura ajustável para se adequar ao seu corpo e ao tipo de atividade que você realiza.
+                  </p>
+                </div>
+              </a>
+
+              <!-- Bullet -->
+              <a
+                class="bullet btn-floating pulse waves-effect waves-light tooltipped"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="bullet-02"
+                style="left: 65%; top: 45%"
+              >
+                <div id="bullet-02" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Encosto ajustado ao corpo, especialmente para proteger a região lombar.
+                  </p>
+                </div>
+              </a>
+
+              <!-- Bullet -->
+              <a
+                class="bullet btn-floating pulse waves-effect waves-light tooltipped"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="bullet-03"
+                style="left: 50%; top: 65%"
+              >
+                <div id="bullet-03" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Borda frontal arredondada para evitar a pressão nas pernas.
+                  </p>
+                </div>
+              </a>
+
+              <!-- Bullet -->
+              <a
+                class="bullet btn-floating pulse waves-effect waves-light tooltipped"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="bullet-04"
+                style="left: 58%; top: 75%"
+              >
+                <div id="bullet-04" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Assento com pouca conformação para evitar pressões desnecessárias no corpo.
+                  </p>
+                </div>
+              </a>
+
+              <!-- Bullet -->
+              <a
+                class="bullet btn-floating pulse waves-effect waves-light tooltipped"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="bullet-05"
+                style="left: 60%; top: 95%"
+              >
+                <div id="bullet-05" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Ajuste fácil: os sistemas de regulagem devem ser acessíveis e simples de usar.
+                  </p>
+                </div>
+              </a>
+          
+              <img
+              src="src/img/cadeira.webp"
+              alt="Escritório"
+              class="w100"
+              loading="lazy"
+              style="margin-bottom: -9px"
+            />
+            </div>
+          </div>
+
+          <div class="bg-blue-green py-80">
+            <div class="container--780">
+              <p class="flex--align-center white-t">
+                <img
+                  src="src/img/check-purple.webp"
+                  alt="Check"
+                  loading="lazy"
+                  class="mr-16 m-w16"
+                />
+                <b>Observação</b>
+              </p>
+              <p class="white-t">
+                Para mesas retangulares com menos de 60 cm de profundidade, é
+                essencial que as cadeiras tenham braços com altura ajustável
+                para se encaixarem na mesa. Em mesas em formato de L ou U, o uso
+                de apoio para os braços pode ser dispensado.
+              </p>
+              <div class="row mt-40">
+                <div class="col m6 s12">
+                  <img
+                    src="src/img/espaco.webp"
+                    alt="Escritório em casa"
+                    class="w100"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="col m6 s12">
+                  <h4 class="purple-text">
+                    Vamos então tratar do espaço embaixo da sua mesa.
+                  </h4>
+                  <p class="purple-text">
+                    <b>Esse espaço é super importante!</b>
+                  </p>
+                  <p class="white-t">
+                    Você deve ter liberdade suficiente para mover as pernas à
+                    vontade, o que ajuda a variar a postura, permitindo que você
+                    cruze as pernas confortavelmente ou até as estique sem
+                    dificuldade.
+                  </p>
+                  <p class="white-t">
+                    A distância entre a mesa e o assento precisa ser de, no
+                    mínimo, 20 cm para garantir essa liberdade de movimento.
+                    Além disso, o espaço livre para as pernas e pés deve ter
+                    pelo menos 60 cm de profundidade. Dessa forma, você se
+                    sentirá mais confortável e conseguirá se movimentar melhor
+                    ao longo do dia!
+                  </p>
+                </div>
+              </div>
+
+              <div
+                data-aos="fade-right"
+                class="box-attention box-attention--white py-24 px-24 flex--align-center mt-40"
+              >
+                <img
+                  src="src/img/icon_eye.webp"
+                  loading="lazy"
+                  alt="ícone de cuidado"
+                  style="width: 100%; max-width: 58px"
+                  class="mr-16"
+                />
+                <div>
+                  <p class="blue-light-text">
+                    <b>Fique de olho</b>
+                  </p>
+                  <p>
+                    Mesmo que a cadeira tenha ajuste de altura do assento,
+                    recomenda-se o uso de um apoio para os pés para pessoas de
+                    estatura mais baixa, conforme ilustrado na imagem a seguir.
+                  </p>
+                </div>
+              </div>
+
+              <div class="row mt-40">
+                <div class="col m9 s12">
+                  <p class="white-t">
+                    Além de proporcionar conforto, o apoio para os pés previne a
+                    compressão arterial e melhora a circulação sanguínea nas
+                    pernas.
+                  </p>
+                  <p class="white-t">
+                    O apoio deve ter ajuste de altura; a inclinação é opcional,
+                    mas, se presente, não deve exceder 30 graus.
+                  </p>
+                  <p class="white-t">
+                    A superfície superior deve ser de material antiderrapante.
+                  </p>
+                </div>
+                <div
+                  class="col m3 s12 flex--align-center flex--justify-center-mobile"
+                >
+                  <img
+                    src="src/img/pe.webp"
+                    alt="pé"
+                    loading="lazy"
+                    class="w100 m-w150"
+                    style="aspect-ratio: 1 / 1; height: fit-content"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Computador -->
+        <div id="computador" class="bg-blue-green pb-80">
+          <div class="container--780">
+            <h1 data-aos="fade-up" class="white-t">Uso do computador</h1>
+            <p class="white-t">
+              Para garantir conforto visual ao usar o computador, mantenha o
+              monitor a uma distância de 45 a 70 cm dos olhos. Isso ajuda a
+              evitar o cansaço visual.
+            </p>
+            <p class="white-t">
+              Além disso, a parte superior da tela deve estar alinhada com a
+              altura dos seus olhos.
+            </p>
+            <img
+              src="src/img/computador.webp"
+              alt="Escritório"
+              class="w100"
+              loading="lazy"
+            />
+
+            <!-- COLLAPSIBLE -->
+            <ul class="collapsible my-40">
+              <li>
+                <div class="collapsible-header">
+                  <h5>Uso do suporte com regulagem​</h5>
+                </div>
+                <div class="collapsible-body">
+                  <p>
+                    Se o seu equipamento não permitir esse alinhamento, não se
+                    preocupe! O ideal é utilizar um suporte com regulagem de
+                    altura para ajustar a posição. E, no caso de notebooks,
+                    conecte um teclado e um mouse externos. Seu corpo vai
+                    agradecer!
+                  </p>
+                  <p>
+                    Ao usar o teclado, tome cuidado para não exagerar na
+                    inclinação dos pulsos, pois isso pode causar desconforto.
+                  </p>
+                  <p>
+                    Ao usar o teclado, evite inclinar os pulsos de forma
+                    exagerada, pois isso pode causar desconforto. Se necessário,
+                    utilize um apoio de punho para melhorar o conforto durante a
+                    digitação.
+                  </p>
+
+                  <p>
+                    Prefira um apoio almofadado que mantenha o punho em uma
+                    posição neutra (reto), reduzindo o risco de lesões.​
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="collapsible-header">
+                  <h5>Escolha do mouse​</h5>
+                </div>
+                <div class="collapsible-body">
+                  <p>
+                    Ao escolher um mouse, o ideal é optar por um modelo que se
+                    ajuste bem ao tamanho da sua mão. Isso faz toda a diferença
+                    para o conforto!
+                  </p>
+                  <p>
+                    Além disso, lembre-se de reservar um espaço livre na mesa
+                    para o uso do mouse: do lado direito, se você for destro, ou
+                    do lado esquerdo, se for canhoto.
+                  </p>
+
+                  <p>
+                    Se precisar de mais conforto, considere usar um apoio
+                    almofadado para o punho. Ele ajuda a reduzir a tensão
+                    muscular e a manter uma postura mais relaxada.​
+                  </p>
+                </div>
+              </li>
+
+             
+            </ul>
+          </div>
+        </div>
+
+        <!-- Telefone -->
+        <div id="telefone" class="py-80">
+          <div class="container--780">
+            <div class="row">
+              <div class="col m7 s12">
+                <h1 data-aos="fade-up" class="blue-light-text">
+                  Uso do telefone e celular
+                </h1>
+                <p>
+                  Ao utilizar o telefone fixo, segure-o com as mãos na altura
+                  das orelhas e mantenha o pescoço em posição neutra (ereto). É
+                  recomendável alternar o uso entre as orelhas ao longo da
+                  jornada de trabalho.
+                </p>
+                <p>
+                  Evite apoiar o telefone entre o pescoço e o ombro, pois essa
+                  prática pode causar dores crônicas na região do trapézio
+                  superior, além de afetar os músculos escalenos e o
+                  esternocleidomastóideo (localizados no pescoço e ombro).
+                </p>
+                <p>
+                  Se precisar usar o telefone por longos períodos, opte por um
+                  headset para evitar sobrecarga muscular e garantir maior
+                  conforto.
+                </p>
+              </div>
+              <div class="col m5 s12">
+                <img
+                  src="src/img/telefone.webp"
+                  alt="Telefone"
+                  class="w100"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            <h4 class="blue-light-text mt-40-mobile">
+              Fique de olho na postura ao usar o celular!
+            </h4>
+            <p>
+              O ideal é manter a cabeça em uma posição neutra, evitando dobrar
+              ou esticar o pescoço excessivamente. Para isso, eleve os braços
+              até que o celular fique na altura dos olhos. Assim, você evita a
+              flexão que sobrecarrega os músculos do pescoço e pode causar dores
+              na região cervical.
+            </p>
+            <p>
+              Confira na ilustração a seguir como a postura influencia na
+              pressão sobre a sua coluna. Pequenas mudanças fazem uma grande
+              diferença no seu bem-estar!
+            </p>
+
+            <img
+              src="src/img/pescoco.webp"
+              alt="Potura pescoço"
+              class="w100"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <!-- Remoto -->
+        <div id="remoto" class="pb-80">
+          <div class="container--780">
+            <h1 data-aos="fade-up" class="blue-light-text">
+              Postura e trabalho remoto
+            </h1>
+            <p>
+              Você está trabalhando em home office? Então, vale a pena seguir
+              algumas dicas para tornar o seu trabalho mais confortável! Mas por
+              que é tão importante usar uma cadeira adequada, mesmo em casa?
+            </p>
+            <p>
+              O nosso corpo precisa de apoio em diversas partes! Por exemplo, o
+              pescoço deve estar alinhado com os olhos na altura do monitor,
+              evitando desconfortos na coluna cervical. Além disso, suportes
+              para os antebraços e uma cadeira ajustada ajudam a reduzir a
+              pressão na lombar.
+            </p>
+            <p class="mt-40 blue-light-text">
+              Clique nos itens a seguir para conferir cuidados essenciais que
+              evitam dores e melhoram seu bem-estar
+            </p>
+          </div>
+          <div class="container mt-40">
+            <!-- ORELHAS -->
+            <div class="row">
+              <!-- Item 1 -->
+              <div class="col m4 s12 flex--justify-center">
+                <div class="pulse-review flex--align-center flex--column">
+                  <a
+                    @click="pulseReview($event)"
+                    class="btn-floating btn-large pulse mb-32 flex--justify-center waves-effect waves-light"
+                    style="
+                      border-radius: 50%;
+                      width: 76px;
+                      height: 76px;
+                      background-color: #ceeaf4;
+                      box-shadow: none;
+                    "
+                  >
+                    <img
+                      style="pointer-events: none"
+                      src="src/img/icon-orelha.webp"
+                      alt="Efeitos"
+                    />
+                  </a>
+                  <!-- <div class="white-t btn w100 flex--justify-center">
+                    Alongamentos
+                  </div> -->
+                  <div class="scale-transition scale-out">
+                    <h5
+                      class="white-text bg-blue-light py-8 px-16"
+                      style="border-radius: 3px"
+                    >
+                      Alongamentos
+                    </h5>
+                    <p>
+                      Passar muitas horas sentado em frente ao computador pode deixar os músculos tensos e menos flexíveis, o que pode gerar dores e até problemas de postura. Por isso, o alongamento é um grande aliado! Ele alivia o cansaço, reduz o estresse, aumenta a disposição e ajuda a minimizar aquelas dores incômodas que aparecem ao longo do dia.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="col m4 s12 flex--justify-center">
+                <div class="pulse-review flex--align-center flex--column">
+                  <a
+                    @click="pulseReview($event)"
+                    class="btn-floating btn-large pulse mb-32 flex--justify-center waves-effect waves-light"
+                    style="
+                      border-radius: 50%;
+                      width: 76px;
+                      height: 76px;
+                      background-color: #ceeaf4;
+                      box-shadow: none;
+                    "
+                  >
+                    <img
+                      style="pointer-events: none"
+                      src="src/img/icon-orelha.webp"
+                      alt="Efeitos"
+                    />
+                  </a>
+                  <!-- <div class="white-t btn w100 flex--justify-center">
+                    Alongamentos
+                  </div> -->
+                  <div class="scale-transition scale-out">
+                    <h5
+                      class="white-text bg-blue-light py-8 px-16"
+                      style="border-radius: 3px"
+                    >
+                    Iluminação
+                    </h5>
+                    <p>
+                      A iluminação no ambiente de trabalho faz toda a diferença!
+                      Tanto a falta quanto o excesso de luz podem prejudicar o desempenho das atividades e causar diversos problemas, como fadiga visual devido ao ofuscamento e à constante adaptação da retina às variações de luz e sombra.
+                    </p>
+                    <p>Além disso, uma iluminação inadequada pode provocar dores de cabeça, comprometer a produtividade e afetar a qualidade do trabalho realizado.</p>
+                    <p> <b>Atenção:</b> aproveite ao máximo a luz natural, complementando-a com iluminação artificial quando necessário. No entanto, evite que a luz da janela incida diretamente na tela do computador, pois o brilho excessivo pode afetar sua concentração e prejudicar a saúde dos olhos.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="col m4 s12 flex--justify-center">
+                <div class="pulse-review flex--align-center flex--column">
+                  <a
+                    @click="pulseReview($event)"
+                    class="btn-floating btn-large pulse mb-32 flex--justify-center waves-effect waves-light"
+                    style="
+                      border-radius: 50%;
+                      width: 76px;
+                      height: 76px;
+                      background-color: #ceeaf4;
+                      box-shadow: none;
+                    "
+                  >
+                    <img
+                      style="pointer-events: none"
+                      src="src/img/icon-orelha.webp"
+                      alt="Efeitos"
+                    />
+                  </a>
+                  <!-- <div class="white-t btn w100 flex--justify-center">
+                    Alongamentos
+                  </div> -->
+                  <div class="scale-transition scale-out">
+                    <h5
+                      class="white-text bg-blue-light py-8 px-16"
+                      style="border-radius: 3px"
+                    >
+                      Pausas ativas
+                    </h5>
+                    <p>
+                      As pausas ativas podem tornar seu tempo de trabalho muito mais produtivo e saudável do que passar horas seguidas sem descanso. Na verdade, várias pausas curtas são mais eficazes para recuperar energia do que poucas pausas longas.
+                      E, claro, não se esqueça das pausas para cuidar do básico: comer, beber água e atender suas necessidades fisiológicas.
+                      <i>O que são as pausas ativas?</i>
+                    </p>
+                    <p>
+                      São pequenas interrupções feitas durante o trabalho. A recomendação é que, a cada 2 hora, você faça uma pausa de 10 minutos.
+                    </p>
+                    <p>
+                      Nesse intervalo, você pode praticar meditação, alongamentos ou até dar uma voltinha pela casa, se estiver em home office. Essas pausas ajudam a manter o corpo e a mente mais equilibrados.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Equilibrio -->
+        <div id="equilibrio" class="py-80-mobile">
+          <div class="container">
+            <h3 class="blue-deep-text mb-24">
+              Agora, você deve estar se perguntando:
+            </h3>
+            <h1 class="white-t">
+              Como equilibrar e organizar meu trabalho remoto com minha vida
+              pessoal?
+            </h1>
+          </div>
+        </div>
+
+        <!-- Qualidade -->
+        <div id="qualidade" class="bg-blue-green py-80">
+          <div class="container--780">
+            <h1 data-aos="fade-up" class="blue-deep-text">
+              Qualidade de vida no trabalho
+            </h1>
+            <p class="white-t">
+              Mesmo trabalhando de casa, vestir-se adequadamente faz toda a
+              diferença! Escolha uma roupa do dia a dia ou até vista-se como se
+              fosse para o escritório. Isso envia um sinal claro para o seu
+              cérebro de que é hora de trabalhar, melhora sua produtividade e,
+              de quebra, deixa você preparado(a) para qualquer reunião por vídeo
+              que apareça de surpresa.
+            </p>
+            <p class="white-t">
+              Outra dica importante é criar uma rotina bem organizada.
+              Estabeleça um horário fixo para acordar, tomar café da manhã e
+              seguir aquele ritual que você costuma fazer para começar o dia.
+              Assim, você inicia o trabalho com mais foco e energia.
+            </p>
+
+            <h5 class="blue-deep-text">
+              <i>Quer mais dicas? Clique nas abas a seguir e descubra!</i>
+            </h5>
+
+            <!-- COLLAPSIBLE -->
+            <ul class="collapsible my-40">
+              <li>
+                <div class="collapsible-header">
+                  <h5>Horário de trabalho​</h5>
+                </div>
+                <div class="collapsible-body">
+                  <p>
+                    Ajuste sua rotina em casa ao seu horário de trabalho e
+                    converse com a família sobre a importância de respeitar esse
+                    tempo, evitando interrupções desnecessárias. Isso é
+                    especialmente importante quando há crianças em casa, para
+                    que você possa manter o foco e alcançar o rendimento
+                    esperado. 
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="collapsible-header">
+                  <h5>Redes sociais​</h5>
+                </div>
+                <div class="collapsible-body">
+                  <p>
+                    As redes sociais podem ser grandes distrações. Por isso,
+                    procure acessá-las apenas após o expediente ou durante o
+                    horário de almoço. Dessa forma, você mantém o foco nas suas
+                    tarefas do dia.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="collapsible-header">
+                  <h5>Sono</h5>
+                </div>
+                <div class="collapsible-body">
+                  <p>
+                    Dormir pouco pode prejudicar seu bem-estar e desempenho. É
+                    recomendado dormir cerca de oito horas por dia para garantir
+                    uma boa recuperação física e mental. 
+                  </p>
+                  <p>
+                    Evite o excesso de café e outras substâncias estimulantes,
+                    pois elas podem afetar a qualidade do sono. Cada pessoa
+                    reage de forma diferente, mas, em geral, esses estímulos
+                    tendem a dificultar o descanso adequado.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="collapsible-header">
+                  <h5>Alimentação equilibrada</h5>
+                </div>
+                <div class="collapsible-body">
+                  <p>
+                    Uma alimentação balanceada, boas noites de sono e atividade
+                    física regular são aliados poderosos para evitar o desgaste
+                    físico e mental, além de melhorar seu desempenho no trabalho
+                    e na vida pessoal. Ah, e não se esqueça de beber água! A
+                    recomendação é ingerir cerca de 35 ml por quilo de peso
+                    corporal por dia.
+                  </p>
+                  <p>
+                    Trabalhar perto da geladeira pode ser um desafio quando se
+                    trata de manter uma alimentação saudável, não é mesmo? Para
+                    evitar cair em tentações, programe os horários das refeições
+                    e lanches, e planeje com antecedência o que vai comer no
+                    almoço. Uma boa dica é definir o momento em que "a cozinha
+                    fecha" para manter uma rotina alimentar mais equilibrada.​
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <h5 class="blue-deep-text mt-40s">
+              Além dessas dicas, a prática de exercícios físicos traz inúmeros
+              benefícios para o nosso corpo.
+            </h5>
+
+            <h5 class="white-t mb-40">
+              Quer saber quais são? Passe o mouse sobre os ícones a seguir e
+              descubra!
+            </h5>
+
+            <!-- ICON REVEAL -->
+          
+            <p class="blue-deep-text">Interaja com os ícones para saber mais</p>
+
+            <div class="icon-reveal-container">
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped mr-24"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-01"
+              >
+                <img
+                  src="src/img/icon01.webp"
+                  alt="Ícone"
+                  class="icon-img"
+                  loading="lazy"
+                />
+                <div id="tooltip-content-01" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Melhora a postura e alivia dores nas costas.​
+                                    </p>
+                </div>
+              </div>
+
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped mr-24"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-02"
+              >
+                <img
+                  src="src/img/icon02.webp"
+                  alt="Ícone"
+                  class="icon-img"
+                  loading="lazy"
+                />
+                <div id="tooltip-content-02" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Eleva a autoestima e aumenta a sensação de bem-estar.​
+                  </p>
+                </div>
+              </div>
+
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped mr-24"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-03"
+              >
+                <img
+                  src="src/img/icon03.webp"
+                  alt="Ícone"
+                  class="icon-img"
+                  loading="lazy"
+                />
+                <div id="tooltip-content-03" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Reduz o risco de doenças cardiovasculares.​
+                  </p>
+                </div>
+              </div>
+
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped mr-24"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-04"
+              >
+                <img
+                  src="src/img/icon04.webp"
+                  alt="Ícone"
+                  class="icon-img"
+                  loading="lazy"
+                />
+                <div id="tooltip-content-04" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Previne problemas como doenças cardíacas, diabetes, osteoporose e fibromialgia.​
+                  </p>
+                </div>
+              </div>
+
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped mr-24"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-05"
+              >
+                <img
+                  src="src/img/icon05.webp"
+                  alt="Ícone"
+                  class="icon-img"
+                  loading="lazy"
+                />
+                <div id="tooltip-content-05" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Aumenta a capacidade de concentração e memória.​
+                  </p>
+                </div>
+              </div>
+
+              <!-- 6 -->
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped mr-24"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-06"
+              >
+                <img
+                  src="src/img/icon06.webp"
+                  alt="Ícone"
+                  class="icon-img"
+                  loading="lazy"
+                />
+                <div id="tooltip-content-06" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Garante uma boa noite de sono.​
+                  </p>
+                </div>
+              </div>
+
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped mr-24"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-07"
+              >
+                <img
+                  src="src/img/icon07.webp"
+                  alt="Ícone"
+                  class="icon-img"
+                  loading="lazy"
+                />
+                <div id="tooltip-content-07" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Reduz o estresse, promovendo melhor saúde mental e humor.​
+                  </p>
+                </div>
+              </div>
+
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped mr-24"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-08"
+              >
+                <img
+                  src="src/img/icon08.webp"
+                  alt="Ícone"
+                  class="icon-img"
+                  loading="lazy"
+                />
+                <div id="tooltip-content-08" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Melhora a força muscular e a saúde cardiorrespiratória.​
+                  </p>
+                </div>
+              </div>
+
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped mr-24"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-09"
+              >
+                <img
+                  src="src/img/icon09.webp"
+                  alt="Ícone"
+                  class="icon-img"
+                  loading="lazy"
+                />
+                <div id="tooltip-content-09" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Ajuda no controle de peso.​
+                  </p>
+                </div>
+              </div>
+
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped mr-24"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-10"
+              >
+                <img
+                  src="src/img/icon10.webp"
+                  alt="Ícone"
+                  class="icon-img"
+                  loading="lazy"
+                />
+                <div id="tooltip-content-10" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Fortalece os ossos e músculos.​
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Finalizar -->
+        <div id="finalizar" class="py-80 bg-blue-deep">
+          <div class="container--780">
+            <h1 data-aos="fade-up" class="blue-green-text">Para finalizar…</h1>
+            <p class="white-t">
+              Organize seu horário de trabalho e descanso. Reserve um espaço
+              exclusivo para realizar suas atividades laborais. Ao final do
+              expediente, desligue o notebook, guarde os itens relacionados ao
+              trabalho e permita-se relaxar.
+            </p>
+            <p class="white-t">
+              Aproveite esse momento para descansar e recarregar suas energias!
+              O home office é uma excelente oportunidade para melhorar sua
+              qualidade de vida, beneficiando sua saúde, desempenho e
+              performance. Trabalhar em casa pode ser muito gratificante: você
+              pode dormir um pouco mais, praticar exercícios e aproveitar o
+              tempo que seria gasto no deslocamento para curtir momentos de
+              lazer com sua família.
+            </p>
+            <p class="white-t">Até a próxima!</p>
+          </div>
+        </div>
+
+        <!-- Referencias ------------------------------------>
+        <div id="referencias" class="pt-80 container--medium">
+          <h1 data-aos="fade-up">Referências</h1>
+
+          <p>
+            MINISTÉRIO DO TRABALHO. <b>Manual de aplicação da Norma Regulamentadora
+              nº 17</b>. 2. ed. Brasília: MTE, SIT, 2002.
+          </p>
+          <p>
+            COUTO, Araújo Hudson. <b>Ergonomia aplicada ao trabalho</b>: conteúdo
+            básico guia prático. Belo Horizonte: Ergo Editora, 2007.
+          </p>
+          <p>
+            MINISTÉRIO DO TRABALHO E EMPREGO. <b>Nota Técnica 060/2001</b>. Brasília,
+            2001
+          </p>
+          <p>
+            KROEMER, K. H. E.; GRANDJEAN, E. <b>Manual de ergonomia, adaptando o trabalho ao homem</b>. 5. ed. [<i>S. l.</i> ]: Bookmann, 2005.
+          </p>
+          <p>
+            MANUAL de aplicação da Norma Regulamentadora nº 17. 2. ed. Brasília:
+            MTE, SIT, 2002.
+          </p>
+        </div>
+
+        <!-- Concluir ---------------------------------- -->
+        <concluir></concluir>
+
+        <!-- Footer ------------------------------------>
+        <app-footer></app-footer>
+      </div>
+
+      <!-- Modal -->
+      <div class="hystmodal" id="modal-1" aria-hidden="true">
+        <div class="hystmodal__wrap p-16">
+          <div class="hystmodal__window" role="dialog" aria-modal="true" style="border-radius: 5px;">
+            <!-- You modal HTML markup -->
+            <!-- BOX MODAL -->
+            <div class="box-attention box-attention--white left-align" >
+              <div class="hystmodal-header mt-16 mr-16">
+                <div class="flex--align-center flex--justify-between">
+                  <p class="m-0"></p>
+                  <div>
+                    <img
+                      data-hystclose
+                      class="modal-close pointer"
+                      src="src/img/close.webp"
+                      alt="Close"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+                
+              </div>
+              <div class="hystmodal-body p-24 pt-8 p-16-mobile">
+                <p>
+                  Segundo a Norma Regulamentadora n° 17, ergonomia é uma disciplina
+                  que analisa as situações de trabalho com base em informações de
+                  diversas áreas do conhecimento, com o objetivo de adaptar o
+                  ambiente de trabalho ao trabalhador.
+                </p>
+                <p>
+                  Essa disciplina considera fatores organizacionais, físicos,
+                  cognitivos e psicossociais, além de priorizar conforto, segurança,
+                  saúde e desempenho eficientes no trabalho.
+                </p>
+                <p>
+                  A ergonomia também investiga as causas que podem afetar o
+                  desempenho do sistema produtivo e busca minimizar suas
+                  consequências, como fadiga, estresse, sobrecarga de trabalho,
+                  doenças ocupacionais e riscos de acidentes.
+                </p>
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
