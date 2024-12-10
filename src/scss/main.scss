@@ -124,18 +124,33 @@ ul {
 
 #vantagens {
   background-image: url("../img/vantagens.webp");
-  background-position: 85% 100%;
+  background-position:  center center;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  aspect-ratio: 1920 / 620;
-  // @include tablet{
-  //   background-position: 100% 50%;
-  // }
+  aspect-ratio: 1920 / 720;
+  @include tablet{
+    aspect-ratio: unset;
+    background-position: 100% center;
 
-  @include tablet {
-    background-position: 25% 100%;
   }
+  min-height: 520px;
+
+
+
+  .content_menu_02 {
+    .box-attention{
+      background-color: var(--green-light);
+      border-top: 3px solid lighten(#9EC46D, 15%);
+    }
+    &--red{
+      .box-attention{
+        background-color: #FF3E3E;
+        border-top: 3px solid lighten(#FF3E3E, 15%);
+      }
+    }
+  }
+  
 }
 
 #cadeira{

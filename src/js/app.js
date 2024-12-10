@@ -14,6 +14,7 @@ import carouselSst02 from "./components/carousel-sst-02.js";
 import carouselSstCardsReveal from "./components/carousel-sst-cards-reveal.js";
 import QuestionCheckbox from "./components/question-checkbox.js";
 import contentMenu02 from "./components/content-menu-02.js";
+import ContentMenu02Red from "./components/content-menu-02-red.js";
 
 const app = createApp({
   components: {
@@ -27,23 +28,10 @@ const app = createApp({
     carouselSstCardsReveal,
     QuestionCheckbox,
     contentMenu02,
+    ContentMenu02Red,
   },
 
   // Quando o componente estiver montado, executa o código
-  /**
-   * Inicializa a funcionalidade de scrollspy e adiciona um ouvinte de evento de scroll.
-   *
-   * Esta função é chamada quando o componente é montado. Ela seleciona todos os elementos
-   * com a classe "scrollspy" usando `document.querySelectorAll` e inicializa o scrollspy
-   * usando `M.ScrollSpy.init`. A função `M.ScrollSpy.init` recebe dois parâmetros: os elementos
-   * a serem inicializados e um objeto de opções opcional.
-   *
-   * Após inicializar o scrollspy, a função adiciona um ouvinte de evento de scroll à janela
-   * usando `window.addEventListener`. O ouvinte de evento chama o método `handleScroll`
-   * do componente atual.
-   *
-   * @return {void} Esta função não retorna um valor.
-   */
   mounted() {
     /**
      * Oculta o elemento com id "loading" e exibe o elemento com id "content"

@@ -5,7 +5,7 @@ export default {
   
   template://html
   `
-  <div class="blue-light-to-blue-green-bg2">
+  <div class="bg-purple">
   <div id="hero" class="scrollspy">
     
   
