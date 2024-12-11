@@ -18,24 +18,9 @@ export default {
               `,
         },
 
+       
         {
           id: 1,
-          
-          html: //html
-          `
-
-          
-            <div>
-              
-              <p class="mt-0">
-                Ficar sentado ajuda a posturas forçadas e desconfortáveis que podem causar dores.
-              </p>
-            </div>
-          
-              `,
-        },
-        {
-          id: 2,
           
           html://html
            `
@@ -50,7 +35,7 @@ export default {
               `,
         },
         {
-          id: 3,
+          id: 2,
           
           html: //html
           `
@@ -103,9 +88,9 @@ export default {
                 <div class="col m5 s4 nucleos-menu p-16 p-4-mobile py-8-mobile">
                   <ul class="ml-16">
                     <li @click="menu($event, 0)" class="pointer nucleos-item white-t selected">Descanso das pernas</li>
-                    <li @click="menu($event, 1)" class="pointer nucleos-item white-t">Postura mais natural</li>
-                    <li @click="menu($event, 2)" class="pointer nucleos-item white-t">Economia de energia</li>
-                    <li @click="menu($event, 3)" class="pointer nucleos-item white-t">Praticidade manual</li>
+                   
+                    <li @click="menu($event, 1)" class="pointer nucleos-item white-t">Economia de energia</li>
+                    <li @click="menu($event, 2)" class="pointer nucleos-item white-t">Praticidade manual</li>
                     
                     
 

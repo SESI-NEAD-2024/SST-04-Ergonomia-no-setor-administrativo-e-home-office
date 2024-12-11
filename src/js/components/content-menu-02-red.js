@@ -21,22 +21,10 @@ export default {
           
               `,
         },
-        {
-          id: 5,
-          //html
-          html: `
-            
-            <div>
-              <p class="mt-0">
-               Às vezes, sem perceber, adotamos posições inadequadas, como excesso de lordose (curvatura exagerada na lombar) ou cifose (curvatura acentuada nas costas).​
-               </p>
-            </div>
-          
-              `,
-        },
+        
         
         {
-          id: 6,
+          id: 5,
           //html
           html: `
            
@@ -50,7 +38,7 @@ export default {
               `,
         },
         {
-          id: 7,
+          id: 6,
           //html
           html: `
           
@@ -98,9 +86,9 @@ export default {
                 <div class="col m5 s4 nucleos-menu p-16 p-4-mobile py-8-mobile">
                   <ul class="ml-16">
                   <li @click="menu($event, 0)" class="selected pointer nucleos-item2 white-t">Sedentarismo</li>
-                  <li @click="menu($event, 1)" class="pointer nucleos-item2 white-t">Posturas incorretas</li>
-                  <li @click="menu($event, 2)" class="pointer nucleos-item2 white-t">Desalinhamento da coluna</li>
-                  <li @click="menu($event, 3)" class="pointer nucleos-item2 white-t">Má circulação</li>
+                  
+                  <li @click="menu($event, 1)" class="pointer nucleos-item2 white-t">Desalinhamento da coluna</li>
+                  <li @click="menu($event, 2)" class="pointer nucleos-item2 white-t">Má circulação</li>
                     
                     
 
