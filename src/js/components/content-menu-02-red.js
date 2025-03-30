@@ -1,15 +1,4 @@
-export default {
-  name: "ContentMenu02Red",
-  data() {
-    return {
-      idSelected: 0,
-      items: [
-       
-        
-        {
-          id: 4,
-          //html
-          html: `
+export default{name:"ContentMenu02Red",data(){return{idSelected:0,items:[{id:4,html:`
             
             
           
@@ -19,14 +8,7 @@ export default {
                </p>
             </div>
           
-              `,
-        },
-        
-        
-        {
-          id: 5,
-          //html
-          html: `
+              `},{id:5,html:`
            
             
             <div>
@@ -35,12 +17,7 @@ export default {
                </p>
             </div>
           
-              `,
-        },
-        {
-          id: 6,
-          //html
-          html: `
+              `},{id:6,html:`
           
             <div>
               <p class="mt-0">
@@ -48,37 +25,7 @@ export default {
                </p>
             </div>
        
-              `,
-        },
-
-      ],
-    };
-  },
-  methods: {
-    menu(event, menuOption) {
-      // Remove classe de todos
-      let nucleosItems = document.getElementsByClassName("nucleos-item2");
-      for (var i = 0; i < nucleosItems.length; i++) {
-        nucleosItems[i].classList.remove("selected");
-      }
-
-      // // Adiciona a classe para o item clicado
-      event.target.classList.add("selected");
-
-      // // Conteúdo atual selecionado para mostrar html
-      this.idSelected = menuOption;
-
-
-    },
-  },
-  mounted() {
-    
-  },
-
- 
-  template: //html 
-   
-   `
+              `}]}},methods:{menu(e,t){for(var i=document.getElementsByClassName("nucleos-item2"),a=0;a<i.length;a++)i[a].classList.remove("selected");e.target.classList.add("selected"),this.idSelected=t}},mounted(){},template:`
      
           <div class="content_menu_02 content_menu_02--red" :data-order="idSelected">
             <div class="box-attention  content p-0-mobile p-0-tablet" >
@@ -104,6 +51,4 @@ export default {
           </div>
 
     
-    `,
-};
-
+    `};

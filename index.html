@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta
       name="description"
       content="Ergonomia no Setor Administrativo e Home Office"
@@ -11,17 +11,13 @@
     <meta name="author" content="SESI" />
     <title>SESI vida | Ergonomia no Setor Administrativo e Home Office</title>
     <link rel="icon" type="image/png" href="src/img/core/Favicon.webp" />
-
     <!-- Fonts GIBSON -->
     <link rel="stylesheet" href="https://use.typekit.net/xqh7gyj.css" />
-
     <!--Import Google Icon Font-->
-
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
     />
-
     <!-- CSS -->
     <link
       type="text/css"
@@ -29,65 +25,50 @@
       href="src/css/main.css"
       media="screen"
     />
-
     <!-- Vue DEV MODE -->
     <!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
-
     <!-- Vue PROD MODE -->
     <script
       rel="preconnect"
       src="https://unpkg.com/vue@3/dist/vue.global.prod.js"
     ></script>
-
     <!-- Scorm JS -->
-    <script src="src/js/scorm/APIWrapper.js"></script>
+    <!-- <script src="src/js/scorm/APIWrapper.js"></script>
     <script src="src/js/scorm/SCOFunctions.js"></script>
-    <script src="src/js/scorm/scorm-app.js"></script>
-
+    <script src="src/js/scorm/scorm-app.js"></script> -->
     <link rel="preload" href="src/img/Hero-s.webp" as="image" />
     <link rel="preload" href="src/img/Hero.webp" as="image" />
-
     <!-- Materialize JS -->
     <script
       type="text/javascript"
       src="src/js/bin/materialize.js"
-      defer
+      defer="defer"
     ></script>
-
     <!-- AOS JS -->
     <script
       type="text/javascript"
       src="src/js/aos-master/aos.js"
-      defer
+      defer="defer"
     ></script>
-
     <!-- App.js JS customizado aqui -->
     <script type="module" src="src/js/app.js"></script>
-
     <link type="text/css" rel="stylesheet" href="src/css/aos.css" />
-
     <!-- hystmodal -->
     <link rel="stylesheet" href="src/css/hystmodal.min.css" />
     <script src="src/js/hystmodal/hystmodal.min.js"></script>
   </head>
-
   <body>
     <div id="app">
       <!-- loading ---------------------------------- -->
-      <div id="loading">
-        <div class="spinner"></div>
-      </div>
+      <div id="loading"><div class="spinner"></div></div>
       <div id="content">
-        <!-- Sidebar ---------------------------------- -->
-        <sidebar></sidebar>
-
-        <!-- Navbar ---------------------------------- -->
-        <navbar></navbar>
-
-        <!-- Hero Banner ---------------------------------- -->
-        <hero></hero>
-
-        <!-- introduçao ------------------------------------>
+        <!-- Sidebar ---------------------------------- --><sidebar
+        ></sidebar
+        ><!-- Navbar ---------------------------------- --><navbar
+        ></navbar
+        ><!-- Hero Banner ---------------------------------- --><hero
+        ></hero
+        ><!-- introduçao ------------------------------------>
         <div id="introducao" class="py-80 py-60-tablet bg-purple">
           <div class="container--780 pb-80">
             <h1 data-aos="fade-up" class="blue-green-text">Introdução</h1>
@@ -104,7 +85,6 @@
               de saúde.
             </p>
           </div>
-
           <div class="sobre bg-blue-green py-40 pb-32">
             <div class="container--780">
               <div class="row">
@@ -194,9 +174,8 @@
                   <div class="pr-80 pr-0-tablet">
                     <p class="white-text">
                       Está preparado(a) para melhorar seu ambiente de trabalho e
-                      cuidar da sua saúde? <br /><br />
-                      Então, vamos começar. <br />
-                      Bons estudos!
+                      cuidar da sua saúde?<br /><br />Então, vamos começar.<br />Bons
+                      estudos!
                     </p>
                   </div>
                 </div>
@@ -213,7 +192,6 @@
               </div>
             </div>
           </div>
-
           <div class="container--780 pt-60">
             <div
               class="box-attention box-attention--white py-24 px-24 flex--align-center mt-40"
@@ -230,29 +208,35 @@
                   <b>Vamos começar pelo nome deste treinamento?</b>
                 </p>
                 <p>
-                  Aposto que você já ouviu falar em ergonomia, certo? <br>Mas será
-                  que você sabe exatamente o que significa?
+                  Aposto que você já ouviu falar em ergonomia, certo?<br />Mas
+                  será que você sabe exatamente o que significa?
                 </p>
-                <p>Então, <span class="pointer"
-                  data-hystmodal="#modal-1" style="color: #818abc"><b>clique aqui</b></span> e confira a definição da NR 17.</p>
-                
+                <p>
+                  Então,
+                  <span
+                    class="pointer"
+                    data-hystmodal="#modal-1"
+                    style="color: #818abc"
+                    ><b>clique aqui</b></span
+                  >
+                  e confira a definição da NR 17.
+                </p>
               </div>
             </div>
           </div>
         </div>
-
         <!-- Postura -->
         <div id="postura" class="bg-purple pb-80">
           <div class="container--780">
             <div>
               <h1 data-aos="fade-up" class="white-t">Postura</h1>
               <p class="white-t">
-                <b>
-                  <i
+                <b
+                  ><i
                     >Você já parou para pensar qual seria a postura ideal para
                     realizar o seu trabalho?</i
-                  >
-                </b>
+                  ></b
+                >
               </p>
               <p class="white-t">
                 A postura mais adequada é aquela escolhida livremente e que
@@ -262,7 +246,6 @@
               </p>
             </div>
           </div>
-
           <div class="container">
             <img
               src="src/img/postura.webp"
@@ -274,18 +257,14 @@
             <div style="background-color: #4f3b7a" class="center-align py-60">
               <p class="blue-green-text">
                 <b
-                  ><i>
-                    Agora que você já conhece o conceito de postura, pare um
-                    pouco e reflita:
-                  </i></b
+                  ><i
+                    >Agora que você já conhece o conceito de postura, pare um
+                    pouco e reflita:</i
+                  ></b
                 >
               </p>
               <p class="white-t">
-                <b
-                  ><i>
-                    Você tem alternado sua postura durante o trabalho?
-                  </i></b
-                >
+                <b><i>Você tem alternado sua postura durante o trabalho?</i></b>
               </p>
               <div>
                 <img
@@ -334,7 +313,6 @@
                 (segundo a Nota Técnica nº 060/2001). Mas trabalhar sentado
                 também tem suas vantagens, não é verdade?
               </p>
-
               <h4 class="white-t mt-60"><i>Vantagens e desvantagens</i></h4>
               <p class="white-t">
                 Passe o mouse sobre os tópicos a seguir para conhecer as
@@ -343,7 +321,6 @@
               </p>
             </div>
           </div>
-
           <!-- vantagens e desvantagens -->
           <div id="vantagens" class="pb-40 pt-144 mt-80">
             <div class="container" style="height: 100%">
@@ -358,7 +335,6 @@
             </div>
           </div>
         </div>
-
         <!-- Cadeira -->
         <div id="cadeira" class="bg-purple">
           <div class="container--780">
@@ -389,7 +365,6 @@
               <b>Então, o que sua cadeira precisa ter?</b>
             </p>
           </div>
-
           <div class="container--980 mt-60">
             <div class="click-reveal flex--justify-center">
               <!-- Bullet -->
@@ -399,79 +374,64 @@
                 data-position="bottom"
                 data-tooltip-id="bullet-01"
                 style="left: 62%; top: 30%"
-              >
-                <div id="bullet-01" style="display: none">
+                ><div id="bullet-01" style="display: none">
                   <p class="white-text" style="font-size: 13.5px">
                     Altura ajustável para se adequar ao seu corpo e ao tipo de
                     atividade que você realiza.
                   </p>
-                </div>
-              </a>
-
-              <!-- Bullet -->
+                </div></a
+              ><!-- Bullet -->
               <a
                 class="bullet btn-floating pulse waves-effect waves-light tooltipped"
                 data-html="true"
                 data-position="bottom"
                 data-tooltip-id="bullet-02"
                 style="left: 65%; top: 45%"
-              >
-                <div id="bullet-02" style="display: none">
+                ><div id="bullet-02" style="display: none">
                   <p class="white-text" style="font-size: 13.5px">
                     Encosto ajustado ao corpo, especialmente para proteger a
                     região lombar.
                   </p>
-                </div>
-              </a>
-
-              <!-- Bullet -->
+                </div></a
+              ><!-- Bullet -->
               <a
                 class="bullet btn-floating pulse waves-effect waves-light tooltipped"
                 data-html="true"
                 data-position="bottom"
                 data-tooltip-id="bullet-03"
                 style="left: 50%; top: 65%"
-              >
-                <div id="bullet-03" style="display: none">
+                ><div id="bullet-03" style="display: none">
                   <p class="white-text" style="font-size: 13.5px">
                     Borda frontal arredondada para evitar a pressão nas pernas.
                   </p>
-                </div>
-              </a>
-
-              <!-- Bullet -->
+                </div></a
+              ><!-- Bullet -->
               <a
                 class="bullet btn-floating pulse waves-effect waves-light tooltipped"
                 data-html="true"
                 data-position="bottom"
                 data-tooltip-id="bullet-04"
                 style="left: 58%; top: 75%"
-              >
-                <div id="bullet-04" style="display: none">
+                ><div id="bullet-04" style="display: none">
                   <p class="white-text" style="font-size: 13.5px">
                     Assento com pouca conformação para evitar pressões
                     desnecessárias no corpo.
                   </p>
-                </div>
-              </a>
-
-              <!-- Bullet -->
+                </div></a
+              ><!-- Bullet -->
               <a
                 class="bullet btn-floating pulse waves-effect waves-light tooltipped"
                 data-html="true"
                 data-position="bottom"
                 data-tooltip-id="bullet-05"
                 style="left: 60%; top: 95%"
-              >
-                <div id="bullet-05" style="display: none">
+                ><div id="bullet-05" style="display: none">
                   <p class="white-text" style="font-size: 13.5px">
                     Ajuste fácil: os sistemas de regulagem devem ser acessíveis
                     e simples de usar.
                   </p>
-                </div>
-              </a>
-
-              <img
+                </div></a
+              ><img
                 src="src/img/cadeira.webp"
                 alt="Escritório"
                 class="w100"
@@ -480,7 +440,6 @@
               />
             </div>
           </div>
-
           <div class="bg-blue-green py-80">
             <div class="container--780">
               <p class="flex--align-center white-t">
@@ -498,13 +457,10 @@
                 para se encaixarem na mesa. Em mesas em formato de L ou U, o uso
                 de apoio para os braços pode ser dispensado.
               </p>
-
               <h4 class="purple-text">
                 Vamos então tratar do espaço embaixo da sua mesa.
               </h4>
-              <p class="purple-text">
-                <b>Esse espaço é super importante!</b>
-              </p>
+              <p class="purple-text"><b>Esse espaço é super importante!</b></p>
               <p class="white-t">
                 Você deve ter liberdade suficiente para mover as pernas à
                 vontade, o que ajuda a variar a postura, permitindo que você
@@ -536,9 +492,7 @@
                   class="mr-16"
                 />
                 <div>
-                  <p class="blue-light-text">
-                    <b>Fique de olho</b>
-                  </p>
+                  <p class="blue-light-text"><b>Fique de olho</b></p>
                   <p>
                     Mesmo que a cadeira tenha ajuste de altura do assento,
                     recomenda-se o uso de um apoio para os pés para pessoas de
@@ -546,7 +500,6 @@
                   </p>
                 </div>
               </div>
-
               <div class="row mt-40">
                 <div class="col m9 s12">
                   <p class="white-t">
@@ -577,7 +530,6 @@
             </div>
           </div>
         </div>
-
         <!-- Computador -->
         <div id="computador" class="bg-blue-green pb-80">
           <div class="container--780">
@@ -596,9 +548,7 @@
               alt="Escritório"
               class="w100"
               loading="lazy"
-            />
-
-            <!-- COLLAPSIBLE -->
+            /><!-- COLLAPSIBLE -->
             <ul class="collapsible my-40">
               <li>
                 <div class="collapsible-header">
@@ -622,18 +572,14 @@
                     utilize um apoio de punho para melhorar o conforto durante a
                     digitação.
                   </p>
-
                   <p>
                     Prefira um apoio almofadado que mantenha o punho em uma
                     posição neutra (reto), reduzindo o risco de lesões.​
                   </p>
                 </div>
               </li>
-
               <li>
-                <div class="collapsible-header">
-                  <h5>Escolha do mouse​</h5>
-                </div>
+                <div class="collapsible-header"><h5>Escolha do mouse​</h5></div>
                 <div class="collapsible-body">
                   <p>
                     Ao escolher um mouse, o ideal é optar por um modelo que se
@@ -645,7 +591,6 @@
                     para o uso do mouse: do lado direito, se você for destro, ou
                     do lado esquerdo, se for canhoto.
                   </p>
-
                   <p>
                     Se precisar de mais conforto, considere usar um apoio
                     almofadado para o punho. Ele ajuda a reduzir a tensão
@@ -656,7 +601,6 @@
             </ul>
           </div>
         </div>
-
         <!-- Telefone -->
         <div id="telefone" class="py-80">
           <div class="container--780">
@@ -692,7 +636,6 @@
                 />
               </div>
             </div>
-
             <h4 class="blue-light-text mt-40-mobile">
               Fique de olho na postura ao usar o celular!
             </h4>
@@ -708,7 +651,6 @@
               pressão sobre a sua coluna. Pequenas mudanças fazem uma grande
               diferença no seu bem-estar!
             </p>
-
             <img
               src="src/img/pescoco.webp"
               alt="Potura pescoço"
@@ -717,7 +659,6 @@
             />
           </div>
         </div>
-
         <!-- Remoto -->
         <div id="remoto" class="pb-80">
           <div class="container--780">
@@ -759,13 +700,11 @@
                       background-color: #ceeaf4;
                       box-shadow: none;
                     "
-                  >
-                    <img
+                    ><img
                       style="pointer-events: none"
                       src="src/img/alongamentos.svg"
                       alt="Efeitos"
-                    />
-                  </a>
+                  /></a>
                 </div>
                 <h5
                   class="white-text bg-blue-light py-8 px-16"
@@ -774,7 +713,6 @@
                   Alongamentos
                 </h5>
               </div>
-
               <!-- Item 2 -->
               <div class="col m4 s12 center-align">
                 <div
@@ -790,13 +728,11 @@
                       background-color: #ceeaf4;
                       box-shadow: none;
                     "
-                  >
-                    <img
+                    ><img
                       style="pointer-events: none"
                       src="src/img/iluminacao.svg"
                       alt="Efeitos"
-                    />
-                  </a>
+                  /></a>
                 </div>
                 <h5
                   class="white-text bg-blue-light py-8 px-16"
@@ -805,7 +741,6 @@
                   Iluminação
                 </h5>
               </div>
-
               <!-- Item 3 -->
               <div class="col m4 s12 center-align">
                 <div
@@ -821,13 +756,11 @@
                       background-color: #ceeaf4;
                       box-shadow: none;
                     "
-                  >
-                    <img
+                    ><img
                       style="pointer-events: none"
                       src="src/img/pausas.svg"
                       alt="Efeitos"
-                    />
-                  </a>
+                  /></a>
                 </div>
                 <h5
                   class="white-text bg-blue-light py-8 px-16"
@@ -839,7 +772,6 @@
             </div>
           </div>
         </div>
-
         <!-- Equilibrio -->
         <div id="equilibrio" class="py-80-mobile">
           <div class="container">
@@ -852,7 +784,6 @@
             </h1>
           </div>
         </div>
-
         <!-- Qualidade -->
         <div id="qualidade" class="bg-blue-green py-80">
           <div class="container--780">
@@ -873,11 +804,9 @@
               seguir aquele ritual que você costuma fazer para começar o dia.
               Assim, você inicia o trabalho com mais foco e energia.
             </p>
-
             <h5 class="blue-deep-text">
               <i>Quer mais dicas? Clique nas abas a seguir e descubra!</i>
             </h5>
-
             <!-- COLLAPSIBLE -->
             <ul class="collapsible my-40">
               <li>
@@ -895,11 +824,8 @@
                   </p>
                 </div>
               </li>
-
               <li>
-                <div class="collapsible-header">
-                  <h5>Redes sociais​</h5>
-                </div>
+                <div class="collapsible-header"><h5>Redes sociais​</h5></div>
                 <div class="collapsible-body">
                   <p>
                     As redes sociais podem ser grandes distrações. Por isso,
@@ -909,11 +835,8 @@
                   </p>
                 </div>
               </li>
-
               <li>
-                <div class="collapsible-header">
-                  <h5>Sono</h5>
-                </div>
+                <div class="collapsible-header"><h5>Sono</h5></div>
                 <div class="collapsible-body">
                   <p>
                     Dormir pouco pode prejudicar seu bem-estar e desempenho. É
@@ -928,7 +851,6 @@
                   </p>
                 </div>
               </li>
-
               <li>
                 <div class="collapsible-header">
                   <h5>Alimentação equilibrada</h5>
@@ -953,19 +875,15 @@
                 </div>
               </li>
             </ul>
-
             <h5 class="blue-deep-text mt-40s">
               Além dessas dicas, a prática de exercícios físicos traz inúmeros
               benefícios para o nosso corpo.
             </h5>
-
             <h5 class="white-t mb-40">
               Quer saber quais são? Passe o mouse sobre os ícones a seguir e
               descubra!
             </h5>
-
             <!-- ICON REVEAL -->
-
             <div class="icon-reveal-container">
               <!-- Tooltip -->
               <div
@@ -986,7 +904,6 @@
                   </p>
                 </div>
               </div>
-
               <!-- Tooltip -->
               <div
                 class="icon-reveal tooltipped mr-24"
@@ -1006,7 +923,6 @@
                   </p>
                 </div>
               </div>
-
               <!-- Tooltip -->
               <div
                 class="icon-reveal tooltipped mr-24"
@@ -1026,7 +942,6 @@
                   </p>
                 </div>
               </div>
-
               <!-- Tooltip -->
               <div
                 class="icon-reveal tooltipped mr-24"
@@ -1047,7 +962,6 @@
                   </p>
                 </div>
               </div>
-
               <!-- Tooltip -->
               <div
                 class="icon-reveal tooltipped mr-24"
@@ -1067,9 +981,7 @@
                   </p>
                 </div>
               </div>
-
-              <!-- 6 -->
-              <!-- Tooltip -->
+              <!-- 6 --><!-- Tooltip -->
               <div
                 class="icon-reveal tooltipped mr-24"
                 data-html="true"
@@ -1088,7 +1000,6 @@
                   </p>
                 </div>
               </div>
-
               <!-- Tooltip -->
               <div
                 class="icon-reveal tooltipped mr-24"
@@ -1108,7 +1019,6 @@
                   </p>
                 </div>
               </div>
-
               <!-- Tooltip -->
               <div
                 class="icon-reveal tooltipped mr-24"
@@ -1128,7 +1038,6 @@
                   </p>
                 </div>
               </div>
-
               <!-- Tooltip -->
               <div
                 class="icon-reveal tooltipped mr-24"
@@ -1148,7 +1057,6 @@
                   </p>
                 </div>
               </div>
-
               <!-- Tooltip -->
               <div
                 class="icon-reveal tooltipped mr-24"
@@ -1171,7 +1079,6 @@
             </div>
           </div>
         </div>
-
         <!-- Finalizar -->
         <div id="finalizar" class="py-80 bg-blue-deep">
           <div class="container--780">
@@ -1202,11 +1109,9 @@
             <p class="white-t">Até a próxima!</p>
           </div>
         </div>
-
         <!-- Referencias ------------------------------------>
         <div id="referencias" class="pt-80 container--medium">
           <h1 data-aos="fade-up">Referências</h1>
-
           <p>
             MINISTÉRIO DO TRABALHO.
             <b>Manual de aplicação da Norma Regulamentadora nº 17</b>. 2. ed.
@@ -1230,14 +1135,11 @@
             MTE, SIT, 2002.
           </p>
         </div>
-
-        <!-- Concluir ---------------------------------- -->
-        <concluir></concluir>
-
-        <!-- Footer ------------------------------------>
-        <app-footer></app-footer>
+        <!-- Concluir ---------------------------------- --><concluir
+        ></concluir
+        ><!-- Footer ------------------------------------><app-footer
+        ></app-footer>
       </div>
-
       <!-- Modal -->
       <div class="hystmodal" id="modal-1" aria-hidden="true">
         <div class="hystmodal__wrap p-16">
@@ -1247,8 +1149,7 @@
             aria-modal="true"
             style="border-radius: 5px"
           >
-            <!-- You modal HTML markup -->
-            <!-- BOX MODAL -->
+            <!-- You modal HTML markup --><!-- BOX MODAL -->
             <div class="box-attention box-attention--white left-align">
               <div class="hystmodal-header mt-16 mr-16">
                 <div class="flex--align-center flex--justify-between">
@@ -1287,7 +1188,6 @@
           </div>
         </div>
       </div>
-
       <!-- Modal Alongamentos-->
       <div class="hystmodal" id="modal-2" aria-hidden="true">
         <div class="hystmodal__wrap p-16">
@@ -1297,8 +1197,7 @@
             aria-modal="true"
             style="border-radius: 5px"
           >
-            <!-- You modal HTML markup -->
-            <!-- BOX MODAL -->
+            <!-- You modal HTML markup --><!-- BOX MODAL -->
             <div class="box-attention box-attention--white left-align">
               <div class="hystmodal-header mt-16 mr-16">
                 <div class="flex--align-center flex--justify-between">
@@ -1335,7 +1234,6 @@
           </div>
         </div>
       </div>
-
       <!-- Modal Iluminação-->
       <div class="hystmodal" id="modal-3" aria-hidden="true">
         <div class="hystmodal__wrap p-16">
@@ -1345,8 +1243,7 @@
             aria-modal="true"
             style="border-radius: 5px"
           >
-            <!-- You modal HTML markup -->
-            <!-- BOX MODAL -->
+            <!-- You modal HTML markup --><!-- BOX MODAL -->
             <div class="box-attention box-attention--white left-align">
               <div class="hystmodal-header mt-16 mr-16">
                 <div class="flex--align-center flex--justify-between">
@@ -1391,7 +1288,7 @@
                   </div>
                 </div>
                 <p>
-                  <b> Atenção:</b> aproveite ao máximo a luz natural,
+                  <b>Atenção:</b> aproveite ao máximo a luz natural,
                   complementando-a com iluminação artificial quando necessário.
                   No entanto, evite que a luz da janela incida diretamente na
                   tela do computador, pois o brilho excessivo pode afetar sua
@@ -1402,7 +1299,6 @@
           </div>
         </div>
       </div>
-
       <!-- Modal Pausas-->
       <div class="hystmodal" id="modal-4" aria-hidden="true">
         <div class="hystmodal__wrap p-16">
@@ -1412,8 +1308,7 @@
             aria-modal="true"
             style="border-radius: 5px"
           >
-            <!-- You modal HTML markup -->
-            <!-- BOX MODAL -->
+            <!-- You modal HTML markup --><!-- BOX MODAL -->
             <div class="box-attention box-attention--white left-align">
               <div class="hystmodal-header mt-16 mr-16">
                 <div class="flex--align-center flex--justify-between">
@@ -1443,7 +1338,7 @@
                 </p>
                 <div class="row">
                   <div class="col m6 12">
-                    <p><i>O que são as pausas ativas? </i></p>
+                    <p><i>O que são as pausas ativas?</i></p>
                     <p>
                       São pequenas interrupções feitas durante o trabalho. A
                       recomendação é que, a cada 2 horas, você faça uma pausa de

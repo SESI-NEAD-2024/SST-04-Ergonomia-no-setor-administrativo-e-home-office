@@ -1,29 +1,11 @@
-export default {
-  name: "ContentMenu02",
-  data() {
-    return {
-      idSelected: 0,
-      items: [
-        {
-          id: 0,
-          
-          html://html
-           `
+export default{name:"ContentMenu02",data(){return{idSelected:0,items:[{id:0,html:`
             
             <div>
               
               <p class="mt-0">Como os músculos dos membros inferiores não são tão exigidos, você sente menos desconforto e cansaço.​</p>
             </div>
           
-              `,
-        },
-
-       
-        {
-          id: 1,
-          
-          html://html
-           `
+              `},{id:1,html:`
            
             <div>
               
@@ -32,13 +14,7 @@ export default {
               </p>
             </div>
           
-              `,
-        },
-        {
-          id: 2,
-          
-          html: //html
-          `
+              `},{id:2,html:`
             
             <div>
               
@@ -48,39 +24,7 @@ export default {
               </p>
             </div>
           
-              `,
-        },
-        
-        
-
-      ],
-    };
-  },
-  methods: {
-    menu(event, menuOption) {
-      // Remove classe de todos
-      let nucleosItems = document.getElementsByClassName("nucleos-item");
-      for (var i = 0; i < nucleosItems.length; i++) {
-        nucleosItems[i].classList.remove("selected");
-      }
-
-      // Adiciona a classe para o item clicado
-      event.target.classList.add("selected");
-
-      // Conteúdo atual selecionado para mostrar html
-      this.idSelected = menuOption;
-
-
-    },
-  },
-  mounted() {
-    
-  },
-
- 
-  template: //html 
-   
-   `
+              `}]}},methods:{menu(e,t){for(var i=document.getElementsByClassName("nucleos-item"),o=0;o<i.length;o++)i[o].classList.remove("selected");e.target.classList.add("selected"),this.idSelected=t}},mounted(){},template:`
      
           <div class="content_menu_02" :data-order="idSelected">
             <div class="box-attention  content p-0-mobile p-0-tablet" >
@@ -106,6 +50,4 @@ export default {
           </div>
 
     
-    `,
-};
-
+    `};
